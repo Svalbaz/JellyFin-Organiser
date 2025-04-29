@@ -37,7 +37,7 @@ The project includes the following scripts to help manage your TV shows and movi
 - **Why**: Aligns with JellyFin’s preferred format for season folders.  
 - **Safe Mode**: Previews renaming with `-WhatIf`.
 
-### 5. [Overall_MetaDataRemover.ps1](https://github.com/JellyFin_Overall_MetadataRemover)
+### 5. [Overall_MetaDataRemover.ps1](https://github.com/Svalbaz/JellyFin_Overall_MetadataRemover)
 - **Target**: TV & Movies  
 - **Purpose**: Deletes `.nfo`, `.jpg`, `.png`, `.xml` files across media folders.  
 - **Why**: Clears old or inconsistent metadata files for a clean rescan.  

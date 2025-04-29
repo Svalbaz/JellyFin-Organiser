@@ -13,7 +13,7 @@ These were all created after I moved my years-old collection from my PC to my Ho
 
 The project includes the following scripts to help manage your TV shows and movies:
 
-### 1. [Overall_VideoScanReporter.ps1](https://github.com/Svalbaz/Overall_VideoScanReporter)
+### 1. [[Overall_VideoScanReporter.ps1](https://github.com/Svalbaz/Overall_VideoScanReporter)](https://github.com/Svalbaz/JellyFin_Overall_VideoScanReporter)
 - **Target**: TV & Movies  
 - **Purpose**: Scans all folders in `$rootTV` and `$rootMovies` for video files using `ffmpeg` to generate a codec/quality report.  
 - **Why**: Identify oversized 4K rips and optimise storage.  

@@ -13,37 +13,37 @@ These were all created after I moved my years-old collection from my PC to my Ho
 
 The project includes the following scripts to help manage your TV shows and movies:
 
-### 1. [[Overall_VideoScanReporter.ps1](https://github.com/Svalbaz/Overall_VideoScanReporter)](https://github.com/Svalbaz/JellyFin_Overall_VideoScanReporter)
+### 1. [Overall_VideoScanReporter.ps1](https://github.com/Svalbaz/Overall_VideoScanReporter)
 - **Target**: TV & Movies  
 - **Purpose**: Scans all folders in `$rootTV` and `$rootMovies` for video files using `ffmpeg` to generate a codec/quality report.  
 - **Why**: Identify oversized 4K rips and optimise storage.  
 - **Note**: Requires ffmpeg in your system PATH.
 
-### 2. [TV_EpisodeNameSanitiser.ps1](https://github.com/Svalbaz/TV_EpisodeNameSanitiser)
+### 2. [TV_EpisodeNameSanitiser.ps1](https://github.com/Svalbaz/JellyFin_TV_EpisodeNameSanitiser) 
 - **Target**: TV  
 - **Purpose**: Renames episode files to a standard format like `Show Name (Year) - SXXEXX.ext`.  
 - **Why**: Improves metadata scraping accuracy in JellyFin.  
 - **Safe Mode**: Only previews by default with `-WhatIf`.
 
-### 3. [TV_TrickplayRemove.ps1](https://github.com/Svalbaz/TV_TrickplayRemove)
+### 3. [TV_TrickplayRemove.ps1](https://github.com/Svalbaz/JellyFin_TV_TrickplayRemover)
 - **Target**: TV  
 - **Purpose**: Removes leftover `.trickplay` folders.  
 - **Why**: Cleans up old data before rescanning libraries.  
 - **Safe Mode**: Previews with `-WhatIf` enabled.
 
-### 4. [TV_SeasonNumberer.ps1](https://github.com/Svalbaz/TV_SeasonNumberer)
+### 4. [TV_SeasonNumberer.ps1](https://github.com/Svalbaz/JellyFin_TV_SeasonNumberer)
 - **Target**: TV  
 - **Purpose**: Pads single-digit season folders to `Season 01`, `Season 02`, etc.  
 - **Why**: Aligns with JellyFin’s preferred format for season folders.  
 - **Safe Mode**: Previews renaming with `-WhatIf`.
 
-### 5. [Overall_MetaDataRemover.ps1](https://github.com/Svalbaz/Overall_MetaDataRemover)
+### 5. [Overall_MetaDataRemover.ps1](https://github.com/JellyFin_Overall_MetadataRemover)
 - **Target**: TV & Movies  
 - **Purpose**: Deletes `.nfo`, `.jpg`, `.png`, `.xml` files across media folders.  
 - **Why**: Clears old or inconsistent metadata files for a clean rescan.  
 - **Safe Mode**: Preview only unless `-WhatIf` is removed.
 
-### 6. [Movie_CollectionSorter.ps1](https://github.com/Svalbaz/Movie_CollectionSorter)
+### 6. [Movie_CollectionSorter.ps1](https://github.com/Svalbaz/JellyFin_Movie_CollectionSorter)
 - **Target**: Movies  
 - **Purpose**: Detects collection folders (e.g., trilogies) without years and renames them to a proper format.  
 - **Why**: Better folder structure, especially for collections.  
